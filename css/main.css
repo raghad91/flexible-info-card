@@ -12,11 +12,12 @@ html {
 
 body {
   margin: 0;
+  background: #ccc;
 }
 
 section {
   background-color: #ccc;
-  padding: 2em;
+  padding: 2rem;
 }
 
 ul {
@@ -29,6 +30,7 @@ li {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0 0 1.5em;
 }
 
 img {
@@ -52,4 +54,8 @@ p {
 a {
   background-color: #444;
   padding: .5rem 1rem .6rem;
+}
+
+h2 {
+  text-align: center;
 }
